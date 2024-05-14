@@ -1,15 +1,16 @@
-
+h3{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 button {
     margin-right: 5%;
     font-size: large;
-    font-weight: 400;
+    font-weight: 10;
     padding: 5px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 50px;
 }
 p {
-    
-    text-align: center;
+    background-color: darkslategray;
+    text-align: justify;
     font-weight: bold;
+    border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
