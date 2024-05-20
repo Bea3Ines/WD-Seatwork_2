@@ -6,37 +6,50 @@
 
 nav>button {
     font-size: small;
+    color: antiquewhite;
     padding: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 20px;
     margin-inline-start: 10px;
+    background-color:goldenrod ;
 }
 
 header {
     display: flex;
+
     justify-content: space-around;
     align-items: center;
     height: 10vh;
+    color: white;
+    background-color:cadetblue;
+    opacity: 90%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
+
 section {
-h3{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-top: 10px solid green;
-    height: 10vh;
+    height: 5vh;
+    color:antiquewhite
+
+}
+h3 {
+    height: 5vh;
+    color:antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 p {
-    text-align: center;
+    
+    text-align: left;
     border: none;
-    gap: 10px;
+    height: 40px;
     color: antiquewhite;
-    justify-content: center;
-    flex-direction: column;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 } 
 }
-section{
-    background-image: url(https://wallpapers.com/images/high/aesthetic-chromebook-landscape-art-clu6p67tu3aitm7m.webp);
-    background-attachment: fixed;
-}
 
+body{
+    background-image: url(https://wallpapers.com/images/high/aesthetic-chromebook-landscape-art-clu6p67tu3aitm7m.webp);
+}
