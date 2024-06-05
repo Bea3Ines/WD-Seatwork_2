@@ -1,55 +1,81 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
+/* Dev */
+header,
+header * {
+    /* outline: 1px rgb(255, 0, 0) dashed; */
+}
 
-nav>button {
-    font-size: small;
-    color: antiquewhite;
-    padding: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 20px;
-    margin-inline-start: 10px;
-    background-color:goldenrod ;
+
+/* Dep */
+body {
+    padding: 0 1rem;
 }
 
 header {
-    display: flex;
+    height: calc(100vh - 4rem - 2rem);
+    width: calc(35% - 4rem - 2rem);
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background: black;
+    position: fixed;
 
-    justify-content: space-around;
-    align-items: center;
-    height: 10vh;
-    color: white;
-    background-color:cadetblue;
-    opacity: 90%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    & > .top {
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+
+        & > img {
+            border-radius: 50%;
+            height: 10rem;
+            width: 10rem;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+
+        & > h4 {
+            font-weight: 900;
+            font-size: 1.3rem;
+        }
+
+        & > a {
+            color: rgb(201, 201, 201);
+
+            & > p > span {
+                font-weight: 900;
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+    & > .bottom {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+
+        & > a {
+            text-decoration: none;
+            font-size: 1.3rem;
+            color: aliceblue;
+            transition: .3s ease-out;
+            font-weight: 400;
     
-}
+            & > p {
+                padding: .4rem;
+                border-radius: 10px;
+            }
 
-section {
-h3 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-top: 10px solid green;
-    height: 5vh;
-    color:antiquewhite
+            &:hover {
+                transform: scale(1.1) translate(5px, -5px);
+                font-weight: 900;
+            }
+        }
+    }
 
-}
-h3 {
-    height: 5vh;
-    color:antiquewhite;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-p {
-    
-    text-align: left;
-    border: none;
-    height: 40px;
-    color: antiquewhite;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-} 
-}
-
-body{
-    background-image: url(https://wallpapers.com/images/high/aesthetic-chromebook-landscape-art-clu6p67tu3aitm7m.webp);
 }
