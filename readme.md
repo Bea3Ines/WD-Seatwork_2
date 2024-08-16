@@ -5,8 +5,8 @@
 
 <br />
 <div align="center">
- <a href="https://github.com/Bea3Ines/">
-  <a href="https://github.com/Bea3Ines/WD-seatwork_2.git">
+  <a href="https://github.com/Bea3Ines/">
+  <a href="https://github.com/Bea3Ines/WD-Seatwork_2.git">
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <!--img src="./assets/img/" alt="Nyebe" width="130" height="100">-->
   </a>
@@ -22,7 +22,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-seatwork_2)
+![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Seatwork_2)
 
 ---
 
