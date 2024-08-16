@@ -8,14 +8,14 @@
  <a href="https://github.com/Bea3Ines/">
   <a href="https://github.com/Bea3Ines/WD-seatwork_2.git">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <!--img src="./assets/img/" alt="Nyebe" width="130" height="100">-->
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">WD-seatwork_2</h3>
+  <h3 align="center">WD-seatwork_2:</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  A kind of project that will train us to learn some tricks!
+  "Website Resume"
 </div>
 
 <br />
@@ -56,23 +56,23 @@
 ---
 
 ## Overview
-
+This is project is designed for future web page. This is to practice on how to fix layouts and infos in a better way.
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+<!--Description of the project in details.
 
 Guiding Question:
 - What is the project
 - Whats the purpose
 - What are key components
-- What technology used and how it is used
+- What technology used and how it is used-->
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Website Resume
+- Card
+- Navigation 
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -113,4 +113,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| W3Schools | It's a web page tutorial for web designers which features css templates, guides and examples | https://www.w3schools.com |
+| Youtube | YouTube is a popular video sharing website where registered users can upload and share videos with anyone able to access the site. | youtube.com |
+| Google Fonts | A google service which has kinds of icons and fonts to choose | fonts.google.com |
+| Freepik	| logos, pics, features, icons, etc. | Freepik.com |
