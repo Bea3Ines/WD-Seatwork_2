@@ -1,78 +1,45 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    outline: none;
 
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Besley:ital,wght@0,400..900;1,400..900&family=Bungee&family=Foldit:wght@100..900&family=Limelight&family=Noto+Color+Emoji&family=Palanquin+Dark:wght@400;500;600;700&family=Pattaya&family=Righteous&family=Silkscreen&display=swap');
+*{outline: none;}
 body {
-    padding: 0 1rem;
-    background-color: powderblue;
+    font-family: Alata;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #183f34;
+    color: #fffafa;
+
 }
 
 header {
-    height: calc(90vh - 4rem - 2rem);
-    width: calc(28% - 4rem - 2rem);
-    margin: 8rem 35rem;
-    padding: 1rem;
-    border-radius: 20px;
-    background: rgb(122, 118, 118);
-    position: fixed;
-
-    & > .top {
-        color: rgb(255, 255, 255);
-        display: inline-flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 2rem;
-
-        & > img {
-            border-radius: 50%;
-            height: 10rem;
-            width: 10rem;
-            object-fit: cover;
-            margin-bottom: 1rem;
-        }
-
-        & > h4 {
-            font-weight: 900;
-            font-size: 1.3rem;
-        }
-
-        & > a {
-            color: rgb(0, 0, 0);
-
-            & > p > span {
-                font-weight: 900;
-                font-size: 1.3rem;
-            }
-        }
-    }
-
-    & > .bottom {
-        display: flex;
-        flex-direction: column;
-        gap: .5rem;
-
-        & > a {
-            text-decoration: none;
-            font-size: 1.3rem;
-            color: rgb(0, 0, 0);
-            transition: .3s ease-out;
-            font-weight: 400;
-    
-            & > p {
-                padding: .4rem;
-                border-radius: 10px;
-            }
-
-            &:hover {
-                transform: scale(1.1) translate(3px, -3px);
-                font-weight: 900;
-                background-color: royalblue;
-            }
-        }
-    }
-
+    padding: 30px 0;
+    text-align: center;
 }
+
+nav{display: flex; align-items: center; justify-content: center;
+  }
+
+  nav ul {list-style: none; font-size: 20px;}
+  nav ul li {display: inline; margin: 0 40px;}
+  nav ul li a {color: #fff; text-decoration: none; padding: 8px; border-radius: 20px;}
+  nav ul li a:hover{transition: ease-in .3s; transform: translateY(10); background-color:#4fc9a6; }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.container .box{
+    padding: 15px;
+    border-radius: 15px;
+    border: solid 10px #fff;
+    background-color: #4fc9a6ac;
+}
+h1{text-align: center;}
+h2{text-align: center;}
+  img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
